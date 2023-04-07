@@ -17,22 +17,27 @@
         <a href="index.html">Inicio</a>
         <a href="cadastro-usuario.html">Cadastro Usuario</a>
         <a href="infos-bicicleta.html">Informações Bicicleta</a>
+        <a href="menu.html">Menu</a>
         <a href="fotos-bicicleta.html">Envio de Fotos Bicicleta</a>
         <a href="status-validacao.html">Status e Validação</a>
-        <a href="equipe.html">Equipe de Desenvolvimento</a>
+        <a href="equipe.html">Equipe SmartRegistry</a>
       </nav>
     </header>
     <main class="tudo">
-      <!--ID Atividade-->
       <section class="container">
-        <!--Card Conteudo-->
         <div class="conteudo">
           <h2>Envio de Fotos Bicicleta</h2>
-          <p>Nesta seção da aplicação, o usuario irá realizar o seu cadastro. Informando do seu Nome Completo, CPF e Email (assim como uma senha).</p>
-          <p>Depois de realizar o seu cadastro, se todas as informações forem validas (Nome conter apenas letras, CPF ter sido escrito corretamente, e Email conter @ e .com) o usuario será redirecionado para a seção onde ele deverá registras as informações de sua bibicleta.</p>
-          <button class="btn">
-            <a href="status-validacao.html">Avançar para Proxima Seção</a>
-          </button>
+          <p>Nesta seção, o usuario deverá enviar as fotos de todas as partes da sua bicicleta. Estas então, serão usadas para a validação, comparando elas com as informações cadastradas anteriomente.</p>
+          <p>O usuario pode acessar a seção de envio de fotos a hora que quiser, assim como fecha-la e acessa-la posteriomente. Ao clicar no icone de foto, o usuario abre a camera de seu aparelho, e deverá tirar uma foto nova (não permitindo anexar fotos).</p>
+          <p>Se o usuario não gostar do resultado da foto, ele pode clicar no icone de foto novamente. E enviar apenas aquela que ele achar que mais esta adequada.</p>
+          <div id="multiplos-botoes">
+            <button class="btn">
+              <a href="status-validacao.html">Avançar para Proxima Seção</a>
+            </button>
+            <button class="btn" id="botao-menu">
+              <a href="menu.html">Voltar ao Menu</a>
+            </button>
+          </div>
         </div>
         <div class="atv-imagem">
           <img class="img" src="img/ideias/ideia-envio-fotos.PNG" alt="Prototipo Envio Fotos" />
