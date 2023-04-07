@@ -81,7 +81,7 @@ p {
 
 .btn {
   border: none;
-  width: 150px;
+  width: fit-content;
   padding: 10px;
   background-color: #0a66c2;
   color: white;
@@ -168,4 +168,8 @@ p {
 
 .time {
   height: 250px;
+}
+
+#inicio p {
+  max-width: 700px;
 }
